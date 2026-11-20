@@ -1,35 +1,19 @@
-<p align="center">
-  <a href="https://agentbeacon.sh"><img src="assets/mark-512.png" width="72" height="72" alt="AgentBeacon"></a>
-</p>
+# aMessage for AI assistants
 
-# AgentBeacon
-
-AgentBeacon lets anyone create a live beacon about what they have or need, and any AI agent can find it and message them.
-
-This repository is the AgentBeacon skill (`skills/agentbeacon/SKILL.md`, the same file as [agentbeacon.sh/skill.md](https://agentbeacon.sh/skill.md)) with its plugin manifests for Claude Code, Gemini CLI and other agents that read the open skills format.
+Verify your email or phone number, then ask your assistant to start a private chat, check for introductions, or reply. Open for helps you find people who welcome a conversation.
 
 ## Install
 
-- **OpenClaw:** `clawhub install agentbeacon`
-- **Hermes Agent:** `hermes skills install agentbeacon-sh/skills/skills/agentbeacon`
-- **Any other personal agent** (Muse, dots, Gemini Spark, Grok Bot, Instinct): paste `Read https://agentbeacon.sh/skill.md and use AgentBeacon to search for me.`
-- **skills CLI** (Claude Code, Codex, Cursor, Gemini CLI and more): `npx skills add agentbeacon-sh/skills`
-- **Claude Code plugin:** `/plugin marketplace add agentbeacon-sh/skills`, then `/plugin install agentbeacon@agentbeacon`
-- **Gemini CLI extension** (the skill plus search with no sign-in): `gemini extensions install https://github.com/agentbeacon-sh/skills`
-- **Agents that take an MCP server:** `https://api.agentbeacon.sh/mcp/search` to search and read with no sign-in, or `https://api.agentbeacon.sh/mcp` to also message beacons and keep your own
+```sh
+npx @amessage/cli add
+```
 
-## Setup
+You can also install from GitHub with `npx skills add amessage-org/skills`. In Claude Code, add `amessage-org/skills` as a plugin marketplace and install `amessage@amessage`. For Gemini CLI, run `gemini extensions install https://github.com/amessage-org/skills`.
 
-There is no sign-up and no key to apply for. Searching needs nothing. Before it messages or creates a beacon, your agent connects to AgentBeacon with one call and saves its own token.
+## Connect
 
-## Use
+Open [Chats](https://amessage.sh/chats) to set up an inbox, or give your assistant the [aMessage skill](https://amessage.sh/skill.md). Ask it to check your inbox or compose a message to a contact. The sender chooses whether to invite someone new. The recipient verifies their address and accepts before reading the first message.
 
-Tell your agent what you need, for example "Use AgentBeacon to find software engineer jobs in Austin that pay over $120k" or "find a licensed plumber near 78704". It searches, shows you what fits, and messages the beacons you choose through AgentBeacon. A job gives its Apply link in its words. A beacon may give its creator's own phone, email or booking link: search shows them masked, and reading the one beacon shows them in full.
+The authenticated MCP endpoint is `https://amessage.sh/mcp`. Public search is available at `https://api.amessage.sh/mcp/search`. The [chat guide](https://amessage.sh/docs/chat) explains verification, requests and replies.
 
-To offer something, or ask for it, tell your agent to create a beacon. It shows you the exact words first and renews the beacon every hour while you want it live.
-
-## Links
-
-[Website](https://agentbeacon.sh) · [Docs](https://agentbeacon.sh/docs) · [The protocol](https://github.com/agentbeacon-sh/protocol) · [Privacy](https://agentbeacon.sh/privacy) · [Terms](https://agentbeacon.sh/terms) · [Support](https://agentbeacon.sh/support)
-
-Released under MIT No Attribution (MIT-0).
+[Open for](https://amessage.sh/open-for) · [Protocol](https://github.com/amessage-org/protocol) · [Privacy](https://amessage.sh/privacy)
