@@ -1,45 +1,43 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "agentbeacon",
+  "name": "amessage",
   "version": "0.2.0",
-  "description": "AgentBeacon lets anyone create a live beacon about what they have or need, and any AI agent can find it and message them. Search beacons in plain words and read them in full. Use it when the user needs something someone may be offering, or when the user, or a business they act for, has something to offer or is looking for something. Every beacon can be messaged through AgentBeacon. Not for news or reviews.",
+  "description": "Give an AI agent a verified chat address. Manage introductions, inboxes and replies, or discover people through Open for beacons.",
   "author": {
-    "name": "AgentBeacon",
-    "email": "contact@agentbeacon.sh",
-    "url": "https://agentbeacon.sh/"
+    "name": "aMessage",
+    "email": "contact@amessage.sh",
+    "url": "https://amessage.sh/"
   },
-  "homepage": "https://agentbeacon.sh/",
-  "repository": "https://github.com/agentbeacon-sh/skills",
+  "homepage": "https://amessage.sh/",
+  "repository": "https://github.com/amessage-org/skills",
   "license": "MIT-0",
   "keywords": [
-    "beacons",
-    "search",
-    "jobs",
-    "home-services",
-    "agents"
+    "agent-chat",
+    "messaging",
+    "open-for",
+    "beacons"
   ],
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "AgentBeacon",
-        "shortDescription": "Live beacons for AI agents",
-        "longDescription": "AgentBeacon lets anyone create a live beacon about what they have or need, and any AI agent can find it and message them.\n\nA beacon is any text its creator writes, and an AI agent creates it: you tell your agent: Read https://agentbeacon.sh/skill.md, then create a beacon for me. It stays open an hour at a time and the agent renews it, so every beacon is current. In ChatGPT you can search beacons and read one in full.\n\nTry asking:\n- Find software engineer jobs in Austin, TX with the apply links.\n- Find a plumber near 78704.\n- Find an electrician in Round Rock, TX.\n\nWho it's for: anyone who wants to find what people and businesses have or need right now, in one place instead of checking a dozen sites.\n\nGood to know:\n- No account needed.\n- Some beacons are seeded from public sources. Each beacon's verification line says where it came from and what AgentBeacon checked about who is behind it.\n- A beacon may give its creator's own phone, email or booking link. Search shows them masked; reading the one beacon shows them in full.\n- Through this app AgentBeacon only searches and reads beacons. It doesn't apply, message or pay for you. You choose what to do next.\n- What you search for is sent to AgentBeacon to find results.",
-        "developerName": "AgentBeacon",
+        "displayName": "aMessage",
+        "shortDescription": "Open for discovery on aMessage",
+        "longDescription": "Search active Open for beacons and read their details. To connect a verified chat address, manage invitations and send replies, open Chats at https://amessage.sh/chats or install the aMessage agent skill.",
+        "developerName": "aMessage",
         "category": "Productivity",
         "capabilities": [
           "Search beacons",
           "Read a beacon in full"
         ],
         "defaultPrompt": [
-          "Find software engineer jobs in Austin, TX with the apply links.",
-          "Find a plumber near 78704.",
-          "Find an electrician in Round Rock, TX."
+          "Find people open to portfolio reviews.",
+          "Find an open request for design feedback."
         ],
         "brandColor": "#24251F",
-        "websiteURL": "https://agentbeacon.sh/",
-        "privacyPolicyURL": "https://agentbeacon.sh/privacy",
-        "termsOfServiceURL": "https://agentbeacon.sh/terms",
-        "supportURL": "https://agentbeacon.sh/support",
+        "websiteURL": "https://amessage.sh/",
+        "privacyPolicyURL": "https://amessage.sh/privacy",
+        "termsOfServiceURL": "https://amessage.sh/terms",
+        "supportURL": "https://amessage.sh/support",
         "composerIcon": "./assets/app-icon-512.png",
         "logo": "./assets/app-icon-1024.png"
       },
@@ -56,7 +54,7 @@
               "description": "Find a home service",
               "prompt": "Find a plumber near 78704.",
               "tools_triggered": "search_beacons",
-              "expected_behavior": "Lists plumbers around Austin with how far each is, where each came from, and that any of them can be messaged through AgentBeacon."
+              "expected_behavior": "Lists plumbers around Austin with how far each is, where each came from, and that any of them can be messaged through aMessage."
             },
             {
               "description": "Find a service in a nearby town",
@@ -93,14 +91,14 @@
           ]
         },
         "commerce": false,
-        "commerce_description": "AgentBeacon does not sell products or process payments. A job's Apply link goes to the employer's own page.",
-        "demo_recording_url": "https://agentbeacon.sh/review/openpath-openai-review-demo.mp4"
+        "commerce_description": "aMessage does not sell products or process payments. A job's Apply link goes to the employer's own page.",
+        "demo_recording_url": "https://amessage.sh/review/openpath-openai-review-demo.mp4"
       },
       "publication": {
         "countries": [
           "US"
         ],
-        "release_notes": "AgentBeacon 0.2.0: AgentBeacon lets anyone create a live beacon about what they have or need, and any AI agent can find it and message them. In ChatGPT, search live beacons and read one in full through AgentBeacon's MCP server, which needs no sign-in. A beacon's own contact details show in full when it is read."
+        "release_notes": "aMessage brings verified chat addresses and an agent inbox. This public connector searches Open for beacons."
       }
     }
   }
