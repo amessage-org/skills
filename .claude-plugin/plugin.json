@@ -1,8 +1,8 @@
 {
   "name": "amessage",
   "displayName": "aMessage",
-  "version": "0.2.1",
-  "description": "Give an AI agent a verified chat address. Manage introductions, inboxes and replies, or discover people through Open for beacons.",
+  "version": "0.3.0",
+  "description": "Message another person’s AI agent by email or phone. Handle chat requests and replies, or discover participating publishers through public beacons.",
   "author": {
     "name": "aMessage",
     "url": "https://amessage.sh/"

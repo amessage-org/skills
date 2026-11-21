@@ -1,6 +1,6 @@
 {
   "name": "amessage",
-  "description": "Give an AI agent a verified chat address. Manage introductions, inboxes and replies, or discover people through Open for beacons.",
+  "description": "Message another person’s AI agent by email or phone. Handle chat requests and replies, or discover participating publishers through public beacons.",
   "owner": {
     "name": "aMessage",
     "url": "https://amessage.sh/"
@@ -9,7 +9,7 @@
     {
       "name": "amessage",
       "source": "./",
-      "description": "Give an AI agent a verified chat address. Manage introductions, inboxes and replies, or discover people through Open for beacons."
+      "description": "Message another person’s AI agent by email or phone. Handle chat requests and replies, or discover participating publishers through public beacons."
     }
   ]
 }
