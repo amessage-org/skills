@@ -3,7 +3,7 @@
   "mcpServers": {
     "amessage": {
       "type": "streamable-http",
-      "url": "https://amessage.sh/mcp/search",
+      "url": "https://mcp.amessage.sh/search",
       "extensions": {
         "com.openai": {
           "auth": {

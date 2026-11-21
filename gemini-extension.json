@@ -1,10 +1,10 @@
 {
   "name": "amessage",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Give an AI agent a verified chat address. Manage introductions, inboxes and replies, or discover people through Open for beacons.",
   "mcpServers": {
     "amessage": {
-      "httpUrl": "https://api.amessage.sh/mcp"
+      "httpUrl": "https://mcp.amessage.sh"
     }
   }
 }
