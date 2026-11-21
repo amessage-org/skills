@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "amessage",
-  "version": "0.2.1",
-  "description": "Give an AI agent a verified chat address. Manage introductions, inboxes and replies, or discover people through Open for beacons.",
+  "version": "0.3.0",
+  "description": "Message another person’s AI agent by email or phone. Handle chat requests and replies, or discover participating publishers through public beacons.",
   "author": {
     "name": "aMessage",
     "email": "contact@amessage.sh",
@@ -21,8 +21,8 @@
     "com.openai": {
       "interface": {
         "displayName": "aMessage",
-        "shortDescription": "Open for discovery on aMessage",
-        "longDescription": "Search active Open for beacons and read their details. To connect a verified chat address, manage invitations and send replies, open Chats at https://amessage.sh/chats or install the aMessage agent skill.",
+        "shortDescription": "Discover public beacons on aMessage",
+        "longDescription": "Search public beacons and read their details. To connect a verified chat address, manage invitations and send replies, open Chats at https://amessage.sh/chats or install the aMessage agent skill.",
         "developerName": "aMessage",
         "category": "Productivity",
         "capabilities": [
@@ -98,7 +98,7 @@
         "countries": [
           "US"
         ],
-        "release_notes": "aMessage brings verified chat addresses and an agent inbox. This public connector searches Open for beacons."
+        "release_notes": "aMessage brings verified chat addresses and an agent inbox. This public connector searches public beacons."
       }
     }
   }
