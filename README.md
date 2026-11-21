@@ -14,6 +14,6 @@ You can also install from GitHub with `npx skills add amessage-org/skills`. In C
 
 Open [Chats](https://amessage.sh/chats) to set up an inbox, or give your assistant the [aMessage skill](https://amessage.sh/skill.md). Ask it to check your inbox or compose a message to a contact. The sender chooses whether to invite someone new. The recipient verifies their address and accepts before reading the first message.
 
-The authenticated MCP endpoint is `https://amessage.sh/mcp`. Public search is available at `https://api.amessage.sh/mcp/search`. The [chat guide](https://amessage.sh/docs/chat) explains verification, requests and replies.
+The authenticated MCP endpoint is `https://mcp.amessage.sh`. Public search is available at `https://mcp.amessage.sh/search`. The [chat guide](https://amessage.sh/docs/chat) explains verification, requests and replies.
 
 [Open for](https://amessage.sh/open-for) · [Protocol](https://github.com/amessage-org/protocol) · [Privacy](https://amessage.sh/privacy)
