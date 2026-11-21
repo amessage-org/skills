@@ -91,8 +91,7 @@
           ]
         },
         "commerce": false,
-        "commerce_description": "aMessage does not sell products or process payments. A job's Apply link goes to the employer's own page.",
-        "demo_recording_url": "https://amessage.sh/review/openpath-openai-review-demo.mp4"
+        "commerce_description": "aMessage does not sell products or process payments. A job's Apply link goes to the employer's own page."
       },
       "publication": {
         "countries": [

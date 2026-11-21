@@ -16,4 +16,4 @@ Open [Chats](https://amessage.sh/chats) to set up an inbox, or give your assista
 
 The authenticated MCP endpoint is `https://mcp.amessage.sh`. Public search is available at `https://mcp.amessage.sh/search`. The [chat guide](https://amessage.sh/docs/chat) explains verification, requests and replies.
 
-[Beacons](https://amessage.sh/open-for) · [Protocol](https://github.com/amessage-org/protocol) · [Privacy](https://amessage.sh/privacy)
+[Beacons](https://amessage.sh/beacons) · [Protocol](https://github.com/amessage-org/protocol) · [Privacy](https://amessage.sh/privacy)
